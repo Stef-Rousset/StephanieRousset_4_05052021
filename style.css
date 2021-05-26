@@ -882,8 +882,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right);
+        padding-left: env(safe-area-inset-left, 1px);
+        padding-right: env(safe-area-inset-right, 1px);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -893,8 +893,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right);
+        padding-left: env(safe-area-inset-left, 1px);
+        padding-right: env(safe-area-inset-right, 1px);
     }
     .bloc-ajoute {
       margin: 0 auto;
@@ -1055,6 +1055,9 @@ h4 {
     }
     .image-texte {
       display: none;
+    }
+    .hero-bloc-text {
+      font-size: 3.5rem;
     }
 }
 
