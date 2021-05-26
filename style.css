@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -822,9 +822,12 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
-
+.bloc-ajoute {
+  margin-top: 3rem;
+  text-align: justify;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1026,6 +1029,10 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bloc-ajoute {
+      margin: 0 auto;
+
+    }
 }
 
 @media (max-width: 400px) {
@@ -1033,10 +1040,15 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .bloc-ajoute {
+      margin: 0 auto;
+
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+
 }
