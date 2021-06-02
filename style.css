@@ -828,6 +828,9 @@ h4 {
   margin-top: 3rem;
   text-align: justify;
 }
+.contact {
+  margin-top: 20px;
+}
 .footer-bloc > p {
   color: white !important;
 }
